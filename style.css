@@ -24,13 +24,17 @@
 }
 
 .card {
-    list-style: none;
+    list-style-type: none;
     padding: 0;
     margin:10px 0;
 }
 
 .card-description {
     padding-left: 7px;
+}
+
+.column-card-list {
+    list-style-type: none;
 }
 
 li.card {
