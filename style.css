@@ -24,7 +24,6 @@
 }
 
 .card {
-    list-style-type: none;
     padding: 0;
     margin:10px 0;
 }
@@ -42,6 +41,12 @@ li.card {
     box-shadow: 1px 1px 2px #222;
     background: rgb(187, 187, 241);
     overflow: hidden;
+}
+
+li.card-placeholder {
+    height: 54.5px;
+    width: 338.33px;
+    border: 1px solid #0000FF;
 }
 
 .card .btn-delete {
